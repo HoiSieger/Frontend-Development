@@ -1,0 +1,46 @@
+h1 {
+    background-color: springgreen;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 50px;
+    transition: all 0.5s linear;
+}
+
+h1:hover {
+            background: brown;
+            padding: 50px;
+            transform: rotate(180deg);
+}
+
+form > p {
+    background-color: purple;
+    box-shadow: 10px 10px 50px black;
+    margin-bottom: 50px;
+    padding: 1em; 
+    transition: all 1s linear;
+}
+
+form > p:hover {
+    background: yellow;
+    box-shadow: 8px 8px 70px purple;
+}
+
+fieldset > legend {
+    background-color: gold;
+    font-family: sans-serif;
+    font-size: 3em;  
+}
+
+form > fieldset {
+    background-color: yellow;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 50px;
+    transition: all 0.5s linear;
+}
+
+form > fieldset:hover {
+    background: gold;
+}
+
+fieldset > label {
+    font-family: fantasy; 
+}

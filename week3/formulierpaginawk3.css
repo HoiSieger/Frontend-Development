@@ -1,0 +1,61 @@
+html {
+    font-family: century;   
+}
+
+body > header {
+    position: relative;
+    width: 20em;
+    display: inline-block;
+    clear: left;
+    vertical-align: top;
+    background-color: cornsilk;
+    height: 160em;
+}
+
+main {
+    position: relative;
+    display: inline-block;
+    width: 25em;
+    vertical-align: top;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    height: 160em;
+    background-color: gold;
+}
+
+.related {
+    position: relative;
+    width: 22em;
+    display: inline-block;
+    clear: left;
+    vertical-align: top;
+    background-color: greenyellow;
+    height: 160em;
+}
+
+aside {
+    position: relative;
+    width: 20.75em;
+    display: inline-block;
+    clear: left;
+    vertical-align: top;
+    background-color: lightpink;
+    height: 160em;
+}
+
+body > footer {
+    position: relative;
+    width: 89em;
+    display: flex;
+    clear: left;
+    clear: right;
+    vertical-align: top;
+    background-color: aqua;
+    height: 36em;
+    margin-top: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

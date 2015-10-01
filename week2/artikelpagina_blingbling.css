@@ -1,0 +1,53 @@
+h1 {
+    background-color: aqua;
+    transform: rotate(-1deg);
+    box-shadow: 10px 50px 100px black;
+    margin-bottom: 50px;
+}
+
+.eerstesection {
+            background-color: red;
+            transform: rotate(2deg);
+            box-shadow: 40px 5px 50px yellow;
+            margin-bottom: 100px;
+            transition: all 0.5s linear;
+            padding: 10px;
+}
+
+.eerstesection:hover {
+            background: darkred;
+            padding: 20px;
+}
+
+.tweedesection {
+            background-color: violet;
+            border-radius: 150px 10px 30px 10px;
+            transform: rotate(-4deg);
+            margin-bottom: 100px;
+            box-shadow: 5px 10px 70px purple;
+            transition: all 0.5s ease;
+            padding: 50px;
+}
+
+.tweedesection:hover {
+            border-radius: 0px 0px 0px 0px;
+            background: purple;
+            padding: 10px;
+}
+
+.orderedlist {
+            background-color: chocolate;
+            border-radius: 50px 50px 50px 50px;
+            transform: rotate(180deg);
+            margin-bottom: 100px;
+            box-shadow: 5px 10px 70px purple;
+            transition: all 0.5s ease;
+            padding: 50px;
+}
+
+.orderedlist:hover {
+            border-radius: 0px 0px 0px 0px;
+            background: brown;
+            padding: 10px;
+            transform: rotate(0deg);
+}
